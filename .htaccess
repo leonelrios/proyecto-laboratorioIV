@@ -1,0 +1,25 @@
+#archivo .htaccess
+
+RewriteEngine on
+
+RewriteRule ^home$ controllers/home.php
+RewriteRule ^categorias$ controllers/listadocategorias.php
+RewriteRule ^carrito$ controllers/carrito.php
+RewriteRule ^login$ controllers/login.php
+RewriteRule ^bebidas$ controllers/bebidas.php
+RewriteRule ^bebes$ controllers/bebes.php
+RewriteRule ^carnes$ controllers/carnes.php
+RewriteRule ^electro$ controllers/electro.php
+RewriteRule ^frutas$ controllers/frutas.php
+RewriteRule ^lacteos$ controllers/lacteos.php
+RewriteRule ^limpieza$ controllers/limpieza.php
+RewriteRule ^pescados$ controllers/pescados.php
+RewriteRule ^perfumeria$ controllers/perfumeria.php
+RewriteRule ^producto-([0-9]+)$ controllers/producto.php?id=$1
+RewriteRule ^checkout$ controllers/checkout.php
+RewriteRule ^postcompra$ controllers/postCompra.php
+RewriteRule ^empleados$ controllers/empleados.php
+RewriteRule ^pedido-([0-9]+)$ controllers/detallePedidos.php?id=$1
+
+
+
