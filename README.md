@@ -1,2 +1,2 @@
 ### Proyecto Laboratorio IV
-PHP - MVC
+PHP - MVC - MySQL
